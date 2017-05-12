@@ -1,5 +1,6 @@
 use Mix.Config
 
+# these are sandbox values, so no harm in publishing them
 config :mkm,
   base_url: "https://sandbox.mkmapi.eu/ws/v2.0/output.json",
   app_token: "OSx3PdlUUOwXHzXL",
