@@ -1,0 +1,31 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "authorization": "OAuth oauth_consumer_key=\"OSx3PdlUUOwXHzXL\",oauth_nonce=\"l9XDt2jT_jFkKGHW\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1483657872\",oauth_token=\"\",oauth_version=\"1.0\",realm=\"https://sandbox.mkmapi.eu/ws/v2.0/output.json/products/find\",oauth_signature=\"KYhOcj+HSbUVkkmObgYoIgPJm/8=\""
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://sandbox.mkmapi.eu/ws/v2.0/output.json/products/find?idGame=1&start=400000&maxResults=400"
+    },
+    "response": {
+      "body": "",
+      "headers": {
+        "Set-Cookie": "PHPSESSID=f34pq5on65p1oml4tss9ooqdd7; path=/",
+        "Content-Range": "400000-40892/40893",
+        "Access-Control-Allow-Methods": "GET, OPTIONS",
+        "Content-Type": "application/json; charset=utf-8",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Content-Type, Authorization, X-Requested-With",
+        "Access-Control-Expose-Headers": "Content-Range, Range",
+        "Access-Control-Max-Age": "1000",
+        "Date": "Thu, 05 Jan 2017 23:11:14 GMT",
+        "Expires": "Thu, 05 Jan 2017 23:11:14 GMT"
+      },
+      "status_code": 204,
+      "type": "ok"
+    }
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "authorization": "OAuth oauth_consumer_key=\"OSx3PdlUUOwXHzXL\",oauth_nonce=\"FfQLgsP2zdpTqd9b\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1484510026\",oauth_token=\"\",oauth_version=\"1.0\",realm=\"https://sandbox.mkmapi.eu/ws/v2.0/output.json/metaproducts/1\",oauth_signature=\"i1sF+dgoW6SiPS4/isd8XY/WPPc=\""
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://sandbox.mkmapi.eu/ws/v2.0/output.json/metaproducts/1"
+    },
+    "response": {
+      "body": "{\"metaproduct\":{\"idMetaproduct\":1,\"enName\":\"Abandon Hope\",\"locName\":\"Abandon Hope\",\"localization\":[{\"name\":\"Abandon Hope\",\"idLanguage\":\"1\",\"languageName\":\"English\"},{\"name\":\"Abandon de l\\u0027espoir\",\"idLanguage\":\"2\",\"languageName\":\"French\"},{\"name\":\"Verlust der Hoffnung\",\"idLanguage\":\"3\",\"languageName\":\"German\"},{\"name\":\"Perder la esperanza\",\"idLanguage\":\"4\",\"languageName\":\"Spanish\"},{\"name\":\"Abbandonare la Speranza\",\"idLanguage\":\"5\",\"languageName\":\"Italian\"}],\"image\":\".\\/img\\/cards\\/Tempest\\/abandon_hope.jpg\"},\"product\":[{\"idProduct\":8736,\"idMetaproduct\":1,\"countReprints\":1,\"enName\":\"Abandon Hope\",\"locName\":\"Abandon Hope\",\"localization\":[{\"name\":\"Abandon Hope\",\"idLanguage\":\"1\",\"languageName\":\"English\"},{\"name\":\"Abandon de l\\u0027espoir\",\"idLanguage\":\"2\",\"languageName\":\"French\"},{\"name\":\"Verlust der Hoffnung\",\"idLanguage\":\"3\",\"languageName\":\"German\"},{\"name\":\"Perder la esperanza\",\"idLanguage\":\"4\",\"languageName\":\"Spanish\"},{\"name\":\"Abbandonare la Speranza\",\"idLanguage\":\"5\",\"languageName\":\"Italian\"}],\"website\":\"\\/Products\\/Singles\\/Tempest\\/Abandon+Hope\",\"image\":\".\\/img\\/cards\\/Tempest\\/abandon_hope.jpg\",\"gameName\":\"Magic the Gathering\",\"categoryName\":\"Magic Single\",\"idGame\":\"1\",\"number\":null,\"rarity\":\"Uncommon\",\"expansionName\":\"Tempest\",\"expansionIcon\":17,\"countArticles\":679,\"countFoils\":0,\"links\":[{\"rel\":\"product\",\"href\":\"\\/product\\/8736\",\"method\":\"GET\"}]}],\"links\":[{\"rel\":\"self\",\"href\":\"\\/metaproduct\\/1\",\"method\":\"GET\"}]}",
+      "headers": {
+        "Set-Cookie": "PHPSESSID=9jdul5g0t35jmb2kmepq8dk5g4; path=/",
+        "Access-Control-Allow-Methods": "GET, OPTIONS",
+        "Content-Type": "application/json; charset=utf-8",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Content-Type, Authorization, X-Requested-With",
+        "Access-Control-Expose-Headers": "Content-Range, Range",
+        "Access-Control-Max-Age": "1000",
+        "Date": "Sun, 15 Jan 2017 19:53:47 GMT",
+        "Expires": "Sun, 15 Jan 2017 19:53:47 GMT",
+        "Transfer-Encoding": "chunked"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

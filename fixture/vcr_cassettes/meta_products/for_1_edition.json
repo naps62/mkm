@@ -1,0 +1,30 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "authorization": "OAuth oauth_consumer_key=\"OSx3PdlUUOwXHzXL\",oauth_nonce=\"Xeciw4RCFUPTMknv\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1484509925\",oauth_token=\"\",oauth_version=\"1.0\",realm=\"https://sandbox.mkmapi.eu/ws/v2.0/output.json/metaproducts/\",oauth_signature=\"eWxNQx5GkH8JfQ5j6K1BFfQ8sVg=\""
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://sandbox.mkmapi.eu/ws/v2.0/output.json/metaproducts/"
+    },
+    "response": {
+      "body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<response>\n  <errors>\n    <message>Resource not found.</message>\n    <error>error-router-no-match</error>\n    <exception/>\n  </errors>\n</response>\n",
+      "headers": {
+        "Set-Cookie": "PHPSESSID=aiqaanf32oqcfvkasf37eun5q0; path=/",
+        "Content-Type": "application/xml; charset=utf-8;",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Content-Type, Authorization, X-Requested-With",
+        "Access-Control-Expose-Headers": "Content-Range, Range",
+        "Access-Control-Max-Age": "1000",
+        "Date": "Sun, 15 Jan 2017 19:52:06 GMT",
+        "Expires": "Sun, 15 Jan 2017 19:52:06 GMT",
+        "Transfer-Encoding": "chunked"
+      },
+      "status_code": 404,
+      "type": "ok"
+    }
+  }
+]
