@@ -39,13 +39,14 @@ defmodule MKM do
     end
   end
 
-  defp only_key({:ok, body}, key, default \\ []) do
+  defp only_key(response, key, default \\ [])
+  defp only_key({:ok, body}, key, default) do
     case body[key] do
       nil -> {:ok, default}
       result -> {:ok, result}
     end
   end
-  defp only_key({:error, _}, _, default \\ []) do
+  defp only_key({:error, _}, _, default) do
     {:ok, default}
   end
 
