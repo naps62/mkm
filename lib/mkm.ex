@@ -45,6 +45,9 @@ defmodule MKM do
       result -> {:ok, result}
     end
   end
+  defp only_key({:error, _}, _, default \\ []) do
+    {:ok, default}
+  end
 
   defp parse_response(%{status_code: code, body: body})
     when code == 200 or code == 206 do
