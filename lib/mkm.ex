@@ -42,12 +42,12 @@ defmodule MKM do
   defp only_key(response, key, default \\ [])
   defp only_key({:ok, body}, key, default) do
     case body[key] do
-      nil -> {:ok, default}
+      nil -> {:error, "No body found in response for key " <> key}
       result -> {:ok, result}
     end
   end
-  defp only_key({:error, _}, _, default) do
-    {:ok, default}
+  defp only_key(response, _, default)  when elem(response, 0) == :error do
+    {:error, elem(response, 1)}
   end
 
   defp parse_response(%{status_code: code, body: body})
